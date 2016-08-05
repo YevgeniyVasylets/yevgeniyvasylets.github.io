@@ -47,6 +47,8 @@ div{
     font-family: arial;
     font-size: 13px;
   }
+
+
   .content{
     width: 670px;
     border: 1px solid #c8c8c8;
@@ -113,3 +115,32 @@ div{
     background-color: #f9f9f9;
     padding-left: 35px;
   }
+  footer{
+    margin-left: 50px;
+    margin-bottom: 60px;
+    background-color: #e1e1e1;
+    min-height: 40px;
+    width: 960px;
+  }
+  footer a{
+
+    font-family: arial;
+    text-decoration: none;
+    color: black;
+    line-height: 40px;
+  }
+  .t1, .t3, .t4{
+    width: 145px;
+    text-align: center;
+    line-height: 40px;
+  }
+  .t2{
+    width:100px;
+    line-height: 40px;
+    text-align: center;
+  }
+  .t5{
+    width: 425px;
+    text-align: right;
+  }
+  
