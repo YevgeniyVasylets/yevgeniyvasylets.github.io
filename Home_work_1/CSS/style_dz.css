@@ -1,0 +1,53 @@
+img{
+  background-color: #0056d3;
+  height: 205px;
+  width: 205px;
+}
+
+.foto{
+  text-align: center;
+}
+
+.work{
+  width: 500px;
+  margin: auto;
+  font-size: 14px;
+  color: grey;
+  text-align: left;
+}
+
+hr{
+    border: none; /* Убираем границу */
+    background-color: grey; /* Цвет линии */
+    color: grey; /* Цвет линии для IE6-7 */
+    height: 1px; /* Толщина линии */
+    width: 500px;
+    margin-top: 15px;
+}
+
+h1{
+    font-family: tahoma;
+    text-transform: uppercase;
+    text-align: center;
+    width: 500px;
+    margin: auto;
+}
+
+ul{
+  font-family: tahoma;
+  font-weight: normal;
+  font-size: 14px;
+}
+
+.content{
+  margin: auto;
+  width: 500px;
+  }
+
+a{
+  padding-left: 5%;
+  font-family: tahoma;
+  font-weight: bold;;
+  font-style: italic;
+  font-size: 14px;
+}
