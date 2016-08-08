@@ -17,6 +17,7 @@ img{
 }
 
 .work{
+  font-family: arial;
   font-size: 14px;
   color: grey;
   text-align: left;
@@ -36,6 +37,10 @@ h1{
     text-transform: uppercase;
     text-align: center;
 
+}
+h3{font-family: arial;}
+h3 p{
+  font-family: arial;
 }
 
 ul{
