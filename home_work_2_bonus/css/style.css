@@ -1,0 +1,92 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+body{
+  background-color: #282828;
+}
+
+.container{
+  /*position: relative;*/
+  width: 960px;
+  height: 883px;
+  margin: 210px auto;
+  background-image: url('../img/background.png');
+  border: 1px dashed #0a0a0a;
+}
+header{
+  /*position: relative;
+  overflow: hidden;*/
+  margin: 0 70px;
+  background-color: red;
+}
+header::after{
+  content: " ";
+  clear: both;
+  display: block;
+
+}
+.logo{
+  float: left;
+  width: 263px;
+  height: 147px;
+  margin-top: 55px;
+  background-image: url("../img/palm tree.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  color: white;
+}
+.logo img{
+  display: block;
+  padding-top: 80px;
+  text-align: center;
+}
+.logo p{
+  font-weight: 10px;/*разобраться почему не включается*/
+  font-family: arial;
+  text-align: center;
+  margin-top: 0;
+}
+.info {
+  float: right;
+  top: 30px;
+  color:white;
+}
+
+.line_1, .line_2{
+  box-sizing: border-box;
+  width: 822px;
+  height: 200px;
+  margin: 0  auto 70px;
+}
+
+.line_1 div, .line_2 div{
+  float: left;
+  margin-left: 14px;
+  }
+  .line_1 div:first-child, .line_2 div:first-child{
+    margin-left: 0px;
+  }
+  .line_1 div img, .line_2 div img{
+    border: 2px solid #9b9b9b;
+  }
+  .line_1 div p, .line_2 div p{
+    font-family: arial;
+    font-size: 14px;
+    color: white;
+    text-align: center;
+  }
+  .country a{
+    text-decoration: none;
+  }
+  footer{
+    height: 40px;
+    /*position: absolute;*/
+    width: 242px;
+    margin: auto;
+
+    margin-top: -250px;
+    bottom: 30px;
+    text-align: center;
+    color: white;
+  }
