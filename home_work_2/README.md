@@ -1,1 +1,0 @@
-# potochni_roboty
