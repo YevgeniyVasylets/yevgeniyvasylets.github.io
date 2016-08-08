@@ -1,0 +1,57 @@
+body{
+  background-color: #f1f2f4;
+}
+.container{
+  width: 500px;
+  margin: auto;
+
+}
+img{
+  background-color: #0056d3;
+  height: 205px;
+  width: 205px;
+}
+
+.foto{
+  text-align: center;
+}
+
+.work{
+  font-size: 14px;
+  color: grey;
+  text-align: left;
+}
+
+hr{
+    border: none; /* Убираем границу */
+    background-color: grey; /* Цвет линии */
+    color: grey; /* Цвет линии для IE6-7 */
+    height: 1px; /* Толщина линии */
+    width: 500px;
+    margin-top: 15px;
+}
+
+h1{
+    font-family: arial;
+    text-transform: uppercase;
+    text-align: center;
+
+}
+
+ul{
+  font-family: arial;
+  font-weight: normal;
+  font-size: 14px;
+  padding-left: 35px;
+}
+
+ .container p{
+   padding-left: 40px;
+ }
+.container a{
+  padding-left: 40px;
+  font-family: arial;;
+  font-weight: bold;;
+  font-style: italic;
+  font-size: 14px;
+}
