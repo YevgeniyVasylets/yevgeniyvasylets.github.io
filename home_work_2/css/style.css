@@ -15,7 +15,7 @@ div{
     margin: auto;
     margin-left: 50px;
     padding-top: 35px;
-    background-color: #ffffff;
+    background: #ffffff;
     overflow: hidden;
   }
 
@@ -58,11 +58,24 @@ div{
     text-align: center;
   }
   .box{
-    width: 960px;
-    margin:40px auto;
-    background-color: grey;
-    min-height: 40px;
-  }
+        width: 960px;
+        margin:40px auto;
+        background-color: grey;
+        min-height: 40px;
+        /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#5e5e5e+0,595959+26,494848+77,444343+100 */
+        background: #5e5e5e; /* Old browsers */
+        background-image: background: -webkit-linear-gradient(#5e5e5e 0%, #595959 26%, #494848 77%, #444343 100%);
+        background-image: background: -o-linear-gradient(#5e5e5e 0%, #595959 26%, #494848 77%, #444343 100%);
+        background-image: background: linear-gradient(#5e5e5e 0%, #595959 26%, #494848 77%, #444343 100%);
+        background: -o-linear-gradient(#5e5e5e 0%, #595959 26%, #494848 77%, #444343 100%);
+        background: linear-gradient(#5e5e5e 0%, #595959 26%, #494848 77%, #444343 100%);
+
+   /* FF3.6-15 */
+     /* Chrome10-25,Safari5.1-6 */
+     /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5e5e5e', endColorstr='#444343',GradientType=0 ); /* IE6-9 */
+
+      }
   .main{
 
     height: 40px;
