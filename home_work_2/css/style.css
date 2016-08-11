@@ -54,14 +54,16 @@ div{
 
 
   .content{
-    width: 678px;
+    /*width: 678px;
+      margin-left: 332px;*/
     height: 398px;
     border: 1px solid #c8c8c8;
-    margin-left: 332px;
+    float: left;
     padding-top: 50px;
     padding-bottom: 50px;
     text-align: center;
 }
+
   .box{
         width: 960px;
         margin:40px auto;
