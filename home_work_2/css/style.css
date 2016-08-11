@@ -10,7 +10,7 @@ div{
 }
   header{
     font-family: arial;
-    font-size: 14,67px;
+    font-size: 14.67px;
     width: 960px;
     margin: auto;
     margin-left: 50px;
@@ -34,7 +34,6 @@ div{
     background: -webkit-linear-gradient(top,  #4a4a4a 0%,#444444 28%,#343434 74%,#2e2e2e 100%); /* Chrome10-25,Safari5.1-6 */
     background: linear-gradient(to bottom,  #4a4a4a 0%,#444444 28%,#343434 74%,#2e2e2e 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4a4a4a', endColorstr='#2e2e2e',GradientType=0 ); /* IE6-9 */
-
   }
   .container{
     box-shadow: 0px 0px 2px 2px #dbdbdb;
@@ -79,7 +78,7 @@ div{
    /* FF3.6-15 */
      /* Chrome10-25,Safari5.1-6 */
      /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5e5e5e', endColorstr='#444343',GradientType=0 ); /* IE6-9 */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5e5e5e', endColorstr='#444343',GradientType=0 ); /* IE6-9*/
 
       }
   .main{
@@ -132,7 +131,7 @@ div{
   }
   ul li a:hover{
     color: #2c2c2c;
-    background-color: #black;
+    background-color: #f9f9f9;
     padding-left: 35px;
   }
   footer{
