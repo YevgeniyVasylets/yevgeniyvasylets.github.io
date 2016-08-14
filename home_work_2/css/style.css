@@ -103,8 +103,8 @@ div{
     background-color: #ffffff;
     box-sizing: border-box;
     width: 240px;
-    height: 240px;
-    /*border: 1px solid grey;*/
+    /*height: 240px;
+    border: 1px solid grey;*/
     padding: 0px;
   }
   .menu ul li a{
