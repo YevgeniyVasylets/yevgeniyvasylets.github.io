@@ -145,6 +145,23 @@ div{
     font-family: arial;
     color: #9b9b9b;
   }
+  footer ul li{
+    float: left;
+    text-align: center;
+    font-size: 13px;
+    width: 144px;
+    height: 40px;
+    line-height: 40px;
+  }
+  footer ul li:last-child{
+    color: #2c2c2c;
+    width: 403px;
+    text-align: right;
+    padding-right: 25px;
+  }
+  footer ul li:nth-child(2){
+    width: 100px;
+  }
   footer a{
     color: #2c2c2c;
     text-decoration: none;
@@ -152,23 +169,4 @@ div{
   }
   footer a:hover{
     text-decoration: underline;
-  }
-
-
-
-  .t1, .t3, .t4{
-    width: 145px;
-    text-align: center;
-    line-height: 40px;
-  }
-  .t2{
-    width:100px;
-    line-height: 40px;
-    text-align: center;
-  }
-  .t5{
-    color: #2c2c2c;
-    width: 425px;
-    text-align: right;
-    padding-right: 25px;
   }
