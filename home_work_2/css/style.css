@@ -147,21 +147,20 @@ div{
   }
   footer ul li{
     float: left;
-    text-align: center;
+    padding-left: 25px;
+    padding-right: 70px;
     font-size: 13px;
-    width: 144px;
     height: 40px;
     line-height: 40px;
   }
+
   footer ul li:last-child{
+    float: right;
     color: #2c2c2c;
-    width: 403px;
     text-align: right;
     padding-right: 25px;
   }
-  footer ul li:nth-child(2){
-    width: 100px;
-  }
+  
   footer a{
     color: #2c2c2c;
     text-decoration: none;
