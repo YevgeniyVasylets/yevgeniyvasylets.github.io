@@ -36,6 +36,7 @@ header a{
   display: block;
 }
 .header{
+  height: 175px;
   background: #fff;
 }
   .photo img{
@@ -45,7 +46,9 @@ header a{
   }
 .logo{
   position: relative;
+  bottom: -1px;
   float: left;
+
   /*width: 283px;
   height: 164px;
   background-image: url("../img_hw4/logo.png");*/
