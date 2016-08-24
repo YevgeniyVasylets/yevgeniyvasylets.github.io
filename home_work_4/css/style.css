@@ -110,7 +110,7 @@ header a{
   background: -o-linear-gradient(rgba(55,55,55,1) 0%, rgba(48,48,48,1) 93%, rgba(0,0,0,1) 97%, rgba(0,0,0,0.67) 100%), url(../img/white_triangles.png);
   background: linear-gradient(rgba(55,55,55,1) 0%, rgba(48,48,48,1) 93%, rgba(0,0,0,1) 97%, rgba(0,0,0,0.67) 100%), url(../img/white_triangles.png); /* Chrome10-25,Safari5.1-6 */
  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#373737', endColorstr='#ab000000',GradientType=0 ); /* IE6-9 */
+  
   -webkit-box-shadow:  0px 3px 4px 0 rgba(61,61,61,0.75);
   -moz-box-shadow:  0px 3px 4px 0 rgba(61,61,61,0.75);
   box-shadow:  0px 3px 4px 0 rgba(61,61,61,0.75);
