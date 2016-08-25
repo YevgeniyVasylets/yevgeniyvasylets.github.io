@@ -74,8 +74,8 @@ header a{
   padding-right: 30px;
   padding-top: 10px;
   font-family: tahoma;
-  font-weight: bold;
-  text-align: right;
+  font-weight: normal;;
+
 }
 .info ul li{
   font-weight: normal;;
@@ -120,8 +120,8 @@ header a{
 
 .menu li{
   position: relative;
-  height: 29px;
-  line-height:29px;
+  /*height: 29px;
+  line-height:29px;*/
   float: left;
   }
   .block:after{
@@ -135,8 +135,9 @@ header a{
 
 .menu li a{
   display: block;
-  padding-left: 10px;
-  padding-right: 45px;
+  padding: 6px 45px 6px 10px;
+  /*padding-left: 10px;
+  padding-right: 45px;*/
   font-size: 14px;
   font-family: tahoma;
   color: #ffffff;
@@ -209,9 +210,10 @@ header a{
   text-align: center;
   font-weight: normal;
 }
-.sidebar p{
+.sidebar p, .news p{
+  line-height: 13px;
   margin-left: 15px;
-  margin-bottom: 12px;
+  margin-bottom: 11px;
   font-family: tahoma, sans-serif;
   font-size: 14px;
   color: #424c43;
@@ -236,12 +238,12 @@ header a{
   left: 790px;
 
 }
-.news p{
+/*.news p{
   margin-left: 15px;
   margin-bottom: 12px;
   font-family: tahoma, sans-serif;
   font-size: 14px;
-  color: #424c43;
+  color: #424c43;*/
 }
 footer{
   width: 205px;
