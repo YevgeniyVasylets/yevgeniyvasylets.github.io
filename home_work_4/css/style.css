@@ -69,9 +69,10 @@ header a{
   padding-bottom: 55px;
   }
 .info{
+  font-size: 12px;
   float: right;
   color: #128aa7;
-  padding-right: 30px;
+  padding-right: 40px;
   padding-top: 10px;
   font-family: tahoma;
   font-weight: normal;;
@@ -116,26 +117,26 @@ header a{
   -moz-box-shadow:  0px 3px 4px 0 rgba(61,61,61,0.75);
   box-shadow:  0px 3px 4px 0 rgba(61,61,61,0.75);
   z-index: 5;
+  text-align: center;
 }
 
 .menu li{
   position: relative;
-  /*height: 29px;
-  line-height:29px;*/
-  float: left;
+  display: inline-block;
   }
+
   .block:after{
     content: " ";
     position:absolute;
     top: 14px;
     margin-left: 9px;
-    border: 5px solid transparent;
-    border-top: 6px solid #ededed;
+    border: 3px solid transparent;
+    border-top: 7px solid #ededed;
   }
 
 .menu li a{
   display: block;
-  padding: 6px 45px 6px 10px;
+  padding: 6px 55px 6px 10px;
   /*padding-left: 10px;
   padding-right: 45px;*/
   font-size: 14px;
@@ -148,9 +149,11 @@ header a{
   /*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#373737', endColorstr='#ab000000',GradientType=0 ); /* IE6-9 */
   text-decoration: none;
 }
-.menu li:first-child{
-  padding-left: 55px;
-  padding-right: 10px;
+.menu li:first-child a{
+  padding: 6px 55px 6px 0px;
+}
+.menu li:last-child a{
+  padding: 6px 0px 6px 10px;
 }
 .menu .submenu{
   position: absolute;
@@ -161,6 +164,7 @@ header a{
   -webkit-box-shadow: 0px 3px 6px 3px rgba(61,61,61,0.5);
   -moz-box-shadow: 0px 3px 6px 3px rgba(61,61,61,0.5);
   box-shadow: 0px 3px 6px 3px rgba(61,61,61,0.5);
+  text-align: left;
 }
 .menu .submenu li{
 
@@ -211,7 +215,7 @@ header a{
   font-weight: normal;
 }
 .sidebar p, .news p{
-  line-height: 13px;
+  line-height: 14px;
   margin-left: 15px;
   margin-bottom: 11px;
   font-family: tahoma, sans-serif;
@@ -243,9 +247,10 @@ header a{
   margin-bottom: 12px;
   font-family: tahoma, sans-serif;
   font-size: 14px;
-  color: #424c43;*/
-}
-footer{
+  color: #424c43;
+}*/
+
+.footer {
   width: 205px;
   height: 30px;
   line-height: 30px;
