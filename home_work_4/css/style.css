@@ -217,6 +217,7 @@ header a{
 .sidebar p, .news p{
   line-height: 14px;
   margin-left: 15px;
+  margin-right: 25px;
   margin-bottom: 11px;
   font-family: tahoma, sans-serif;
   font-size: 14px;
