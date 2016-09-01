@@ -36,17 +36,18 @@ header a{
   display: block;
 }
 .header{
-  height: 175px;
   background: #fff;
 }
+  .photo{
+    border-top: 1px solid #128aa7;
+    border-bottom: 1px solid #128aa7;
+  }
   .photo img{
-    border-top: 1px solid #82c0dc;
-    border-bottom: 1px solid #82c0dc;
     vertical-align:bottom;
   }
 .logo{
   position: relative;
-  bottom: -1px;
+  bottom: 0px;
   float: left;
 
   /*width: 283px;
