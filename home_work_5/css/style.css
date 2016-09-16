@@ -12,12 +12,22 @@
     font-weight: normal;
     font-style: normal;
 }
+html{
+  height: 100%;
+}
 body{
+  height: 100%;
   background: url("../img/Background copy.png") no-repeat;
   background-size: 100%;
 }
 input{
   box-sizing: border-box;
+}
+input:hover{
+  cursor: pointer;
+}
+button:hover{
+  cursor: pointer;
 }
 .clearfix:after{
   content:"";
@@ -26,10 +36,10 @@ input{
 }
 .wra{
   /*background: url("../img/Background copy.png") no-repeat;*/
-  width: 1215px;
+  /*width: 1215px;
   height: 1028px;
   margin: 0 auto;
-
+*/
 }
 .top{
   background:url("../img/noize.png"), #074f8f;
@@ -50,6 +60,7 @@ input{
 .top a:hover{
   background: #4eabda;
   color: #fff;
+  cursor: pointer;
 }
 .slide{
   height: 30px;
@@ -93,13 +104,13 @@ form{
   height:610px;
   width:560px;
   background: rgba(0, 0, 0, 0.5);
-  position: absolute;
+  /*position: absolute;
   top: 0;
   right: 0;
   bottom: 0;
   left: 0;
-  overflow: auto;
-  margin: auto;
+  overflow: auto;*/
+  margin: 0 auto;
 }
 form div{
   margin-bottom: 15px;
