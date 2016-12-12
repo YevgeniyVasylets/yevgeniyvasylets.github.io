@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 *{
   margin: 0;
   padding: 0;
@@ -694,31 +693,36 @@
  background: #eee;
 }
 .catalog h4, .brand h4{
+  padding-left: 27px;
+  padding-top: 3px;
  font: 13px Lucida_sans_regular;
  text-align: left;
  text-transform: uppercase;
  border: 1px solid black;
  border-radius: 12px;
+ position: relative;
 }
-.catalog .head{
+.catalog .head_catalog{
   margin-top: 2px;
   letter-spacing: -0.15px;
 }
 .main_left{
   margin-top: 14px;
 }
-.round{
-   vertical-align: -6px;/*чому так??????!!!!!*/
-   width: 20px;
+.round_catalog{
+  position: absolute;
+  left: 2px;
+  top: 2px;
    height: 20px;
+   width: 20px;
    background: url("../img/iconka.png") no-repeat center, rgb(31,103,134); /* Old browsers */
    background: url("../img/iconka.png") no-repeat center, -moz-linear-gradient(top, rgba(31,103,134,1) 0%, rgba(18,67,103,1) 56%, rgba(12,51,87,1) 100%); /* FF3.6-15 */
    background: url("../img/iconka.png") no-repeat center, -webkit-linear-gradient(top, rgba(31,103,134,1) 0%,rgba(18,67,103,1) 56%,rgba(12,51,87,1) 100%); /* Chrome10-25,Safari5.1-6 */
    background: url("../img/iconka.png") no-repeat center, linear-gradient(to bottom, rgba(31,103,134,1) 0%,rgba(18,67,103,1) 56%,rgba(12,51,87,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1f6786', endColorstr='#0c3357',GradientType=0 ); /* IE6-9 */
    /*background: ;*/
-   display: inline-block;
-   margin: 2px 4px 2px 2px;
+   /*display: inline-block;*/
+   /*margin: 2px 4px 2px 2px;*/
    border-radius: 50%;
 }
 .container .main_left li h4{
@@ -793,17 +797,20 @@
   padding-bottom: 20000px;
   padding-left: 22px;
 }
-       .item{
-         /*display: inline-block;*/
-         float: left;
-         margin-right: 29px;
-         margin-bottom: 25px;
-         width: 138px;
-       }
+.row_1, .row_2, .row_3{
+
+}
+.row_2{
+  margin-top: 9px;
+  margin-bottom: 12px;
+}
+.row_3{
+  margin-bottom: 28px;
+}
 figure{
  float: left;
  /*margin-right: 29px;*/
- margin-bottom: 25px;
+ /*margin-bottom: 25px;*/
  width: 138px;
  font-family: Lucida_sans_regular;
  text-align: center;
@@ -863,7 +870,7 @@ figure .position{
 }
 .second_item .price{
   margin-left: 10px;
-  margin-top: 5px;
+  /*margin-top: 5px;*/
   letter-spacing: 0.4px;
 }
 .third_item .firm{
@@ -876,33 +883,116 @@ figure .position{
 .third_item .price{
   margin-left: 15px;
 }
-         .brand label{
-           display: block;
-           margin: 10px;
-           color: #465961;
-           font: 13px sans-serif;
-
-         }
-         .brand input[type="checkbox"]{
-           display: none;
-         }
-         .brand input[type="checkbox"]+span{
-           display: inline-block;
-           vertical-align: middle;
-           margin: 0 10px 0 0;
-           background: url("../img/checkbox.png");
-           width: 15px;
-           height: 15px;
-         }
-         .brand input[type="checkbox"]:checked+span{
-           background: transparent;
-         }
+.brand{
+  margin-left: 10px;
+}
+.brand .head_brand{
+  padding-left:30px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  letter-spacing: 0.5px;
+}
+.round_brand{
+  position: absolute;
+  left: 1px;
+  top: 0px;
+   height: 23px;
+   width: 23px;
+   background: url("../img/iconka.png") no-repeat center, rgb(31,103,134); /* Old browsers */
+   background: url("../img/iconka.png") no-repeat center, -moz-linear-gradient(top, rgba(31,103,134,1) 0%, rgba(18,67,103,1) 56%, rgba(12,51,87,1) 100%); /* FF3.6-15 */
+   background: url("../img/iconka.png") no-repeat center, -webkit-linear-gradient(top, rgba(31,103,134,1) 0%,rgba(18,67,103,1) 56%,rgba(12,51,87,1) 100%); /* Chrome10-25,Safari5.1-6 */
+   background: url("../img/iconka.png") no-repeat center, linear-gradient(to bottom, rgba(31,103,134,1) 0%,rgba(18,67,103,1) 56%,rgba(12,51,87,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1f6786', endColorstr='#0c3357',GradientType=0 ); /* IE6-9 */
+   /*background: ;*/
+   /*display: inline-block;*/
+   /*margin: 2px 4px 2px 2px;*/
+   border-radius: 50%;
+ }
+ .main_right{
+   padding-left: 15px;
+   margin-top: 14px;
+   padding-right: 30px;
+ }
+ .brand input[type="checkbox"]{
+   display: none;
+ }
+ .brand input[type="checkbox"]+span{
+   display: inline-block;
+   vertical-align: middle;
+   margin: 0 10px 0 0;
+   background: url("../img/checkbox.png");
+   width: 15px;
+   height: 15px;
+ }
+ .brand input[type="checkbox"]:checked+span{
+   background: transparent;
+ }
+ .main_right li h4{
+   padding-left: 29px;
+   padding-bottom: 2px;
+   letter-spacing: 0.9px;
+ }
+ .tyres_brand{
+   padding-top: 4px;
+ }
+.brand label{
+ display: block;
+ margin-left: 7px;
+ color: #465961;
+ font: 13px Lucida_sans_regular;
+}
+.brand label:nth-child(2){
+  margin-top:  4px;
+  margin-bottom:4px ;
+}
+.main_right li:last-child{
+  margin-top: 11px;
+  margin-left: -2px;
+}
+.main_right li:last-child h4{
+  padding-left: 30px;
+  margin-bottom: 6px;
+}
+.main_right li:last-child h4 .ring{
+  top: 2px;
+    left: 2px;
+    width: 10px;
+    height: 10px;
+  }
+  .discs_brand  {
+    padding-left: 3px;
+    margin-bottom: 17px;
+  }
+.brand .main_right button{
+  height: 26px;
+  width: 80px;
+  border: none;
+  border-radius: 20px;
+  margin-left: 12px;
+  text-transform: uppercase;
+  font: 11px arial;
+  letter-spacing: 0.8px;
+  color: #e5e9ea;
+  background: rgb(128,152,163); /* Old browsers */
+  background: -moz-linear-gradient(top, rgba(128,152,163,1) 0%, rgba(31,103,135,1) 4%, rgba(28,94,126,1) 20%, rgba(18,67,102,1) 56%, rgba(12,51,87,1) 96%, rgba(114,129,144,1) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, rgba(128,152,163,1) 0%,rgba(31,103,135,1) 4%,rgba(28,94,126,1) 20%,rgba(18,67,102,1) 56%,rgba(12,51,87,1) 96%,rgba(114,129,144,1) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, rgba(128,152,163,1) 0%,rgba(31,103,135,1) 4%,rgba(28,94,126,1) 20%,rgba(18,67,102,1) 56%,rgba(12,51,87,1) 96%,rgba(114,129,144,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8098a3', endColorstr='#728190',GradientType=0 ); /* IE6-9 */
+  outline: none;
+}
+.brand .main_right button:active, .brand .main_right button:focus{
+  border: 1px solid red;
+  border-radius: 20px;
+}
        /*логотипи брендів*/
 .brandlogo{
  max-width: 710px;
  margin: 0 auto;
  /*margin-top: 120px;*/
- background-color: cyan;
+/*background-color: cyan;*/
+padding-left: 33px;
+margin-top: 33px;
+margin-bottom: 21px;
 }
 .brandlogo li{
  float: left;
@@ -979,985 +1069,3 @@ footer p{
   font-size: 10px;
   margin-top: 10px;
 }
-=======
-*{
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  text-decoration: none;
-}
-@font-face {
-    font-family: 'Lucida_sans_regular';
-    src: url('../font/ufonts.com_lucida-sans-bold-webfont.woff2') format('woff2'),
-         url('../font/ufonts.com_lucida-sans-bold-webfont.woff') format('woff');
-    font-weight: bold;
-    font-style: bold;
-}
-@font-face {
-    font-family: 'Lucida_sans_regular';
-    src: url('../font/lsansuni-webfont.woff2') format('woff2'),
-         url('../font/lsansuni-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-.clearfix:after{
-  content: "";
-  clear: both;
-  display: block;
-}
-.wrapper{
-  padding-bottom: 100px;
-  width: 910px;
-  margin: 0 auto;
-}
-  /*.wra_choise{
-    margin: 0 auto;;
-    width: 900px;
-    height: 135px;
-    overflow: hidden;
-    background: #123456;
-  }*/
-  header{
-    margin-top: 18px;
-    margin-bottom: 9px;
-  }
-  .trubka{
-    width: 22px;
-    height: 22px;
-    margin-top: 4px;
-    margin-left: 6px;
-    margin-right: 4px;
-    border-radius: 50%;
-    background:url('../img/tele_trubka.png') no-repeat center #0f3b60;
-    float: left;
-  }
-  .phone{
-    padding-top: 5px;
-    float: left;
-
-  }
-  .phone li{
-    display: inline-block;
-    letter-spacing: 0.4px;
-  }
-  .phone li a{
-    color: #5e696d;
-    font: 18px arial;
-    margin-right: 3px;
-  }
-  .sign_in{
-    position: relative;
-    margin-left: 13px;
-    box-sizing: border-box;
-    float: left;
-    height: 25px;
-    width: 495px;
-    padding: 2px 3px 4px 24px;
-    background:url("../img/man.png")no-repeat 7px center, #a6c3cf; /* Old browsers */
-    background:url("../img/man.png")no-repeat 7px center, -webkit-linear-gradient(top,  #a6c3cf 0%,#1f6787 4%,#1c5e7f 19%,#13466a 50%,#0f3c61 69%,#0c3357 96%,#596d80 100%);
-    background:url("../img/man.png")no-repeat 7px center, -moz-linear-gradient(top,  #a6c3cf 0%, #1f6787 4%, #1c5e7f 19%, #13466a 50%, #0f3c61 69%, #0c3357 96%, #596d80 100%); /* FF3.6-15 */
-    background: url("../img/man.png")no-repeat 7px center, linear-gradient(to bottom,  #a6c3cf 0%,#1f6787 4%,#1c5e7f 19%,#13466a 50%,#0f3c61 69%,#0c3357 96%,#596d80 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6c3cf', endColorstr='#596d80',GradientType=0 ); /* IE6-9 */
-    border-radius: 4px;
-  }
-  .sign_in input[type="text"], .sign_in input[type="password"]{
-    padding-left: 5px;
-    box-sizing: border-box;
-    width: 115px;
-    height: 18px;
-    color: #97a2a6;
-    font: 11px /*підключити шрифт*/ Arial;
-    border: 1px solid #82949c;
-    vertical-align: 1px;
-  }
-  .sign_in input[type="password"]{
-    margin-left: 3px;
-  }
-  .sign_in input[type="text"]{
-      letter-spacing: 0.3px;
-    }
-  .sign_in input[type="submit"]{
-    background: transparent;
-    border: none;
-    color: #fff;
-    font: 11px arial; /*vstavit drugoy shrift*/
-    margin-left: 3px;
-    margin-right: 5px;
-  }
-  .sign_in span{
-    color: #fff;
-    font-size: 11px;
-  }
-  header .sign_in .registration{
-    letter-spacing: 0.4px;
-    margin-left: 5px;
-  }
-  .sign_in input[type="submit"]:focus{
-    /*border:3px solid green;*/
-    outline: none;
-  }
-
-    .sign_in button{
-    background: transparent;
-    border: none;
-    color: #bfbfbf;
-    text-decoration: underline;
-    font-size: 12px;/*шртфт добавить*/
-    font-family: arial;
-    /*float: right;*/
-    /*margin-top: 4px;*/
-    margin-left: 11px;
-    vertical-align: -1px;
-    letter-spacing: 0.1px;
-    word-spacing: 1px;
-  }
-  .navi{
-    width: 74px;
-    height: 19px;
-    float: left;
-    margin-left: 17px;
-    display: inline;
-    border: 1px solid #c1c8cb;
-    border-radius: 10px;
-  }
-  .navi button{
-    background: transparent;
-    border: none;
-    margin-left: 6px;
-  }
-  .logo{
-    margin-bottom: 2px;
-  }
-  nav{
-    background: rgb(77,86,99); /* Old browsers */
-    background: -moz-linear-gradient(top, rgba(77,86,99,1) 0%, rgba(80,88,96,1) 3%, rgba(70,77,84,1) 6%, rgba(45,50,54,1) 13%, rgba(42,46,50,1) 16%, rgba(19,21,23,1) 55%, rgba(7,8,9,1) 81%, rgba(1,1,1,1) 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(top, rgba(77,86,99,1) 0%,rgba(80,88,96,1) 3%,rgba(70,77,84,1) 6%,rgba(45,50,54,1) 13%,rgba(42,46,50,1) 16%,rgba(19,21,23,1) 55%,rgba(7,8,9,1) 81%,rgba(1,1,1,1) 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to bottom, rgba(77,86,99,1) 0%,rgba(80,88,96,1) 3%,rgba(70,77,84,1) 6%,rgba(45,50,54,1) 13%,rgba(42,46,50,1) 16%,rgba(19,21,23,1) 55%,rgba(7,8,9,1) 81%,rgba(1,1,1,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-      /*height: 32px;*/
-      border: 1px solid #2c345a;
-      border-radius: 5px;
-      display: inline-block;
-      /*overflow: hidden;*/
-  }
-  nav::before{
-    content: "";
-    display: inline-block;
-    height: 100%;
-    vertical-align: middle;
-  }
-  nav .info{
-    display:inline-block;
-    /*padding-left: 125px;*/
-  }
-  nav .info li{
-    box-sizing: border-box;
-    /*border: 1px red dotted;*/
-    border-radius: 15px;
-   float: left;
-   margin-top: 4px;
-   height: 26px;
-
-}
-  nav .info li:first-child{
-    padding: 5px 17px 0px 22px;
-    /*margin-top: 11px;*/
-    margin-left: 120px;
-  }
-  nav .info li:nth-child(2){
-    padding: 5px 17px 0px 18px;
-    letter-spacing: 0.1px;
-    /*margin-left: 35px;*/
-    /*margin-top: 11px;*/
-  }
-  nav .info li:nth-child(3){
-    padding: 5px 17px 0px 16px;
-  }
-  nav .info li:nth-child(4){
-    padding: 5px 17px 0px 13px;
-  }
-  nav .info li:last-child{
-    padding: 5px 17px 0px 8px;
-  }
-   nav .info li a{
-     display: block;
-     text-decoration: none;
-     color: #b1bcc0;
-     font: 14px arial;/*шрифт подключить*/
-     text-transform: uppercase;
-   }
-   nav .info li:hover{
-   color: #fff;
-   background: #27637d; /* Old browsers */
-   background: -webkit-linear-gradient(#27637d 0%, #1f6787 4%, #1c5e7e 20%, #124366 56%, #0c3357 96%, #09233b 100%);
-   background: -o-linear-gradient(#27637d 0%, #1f6787 4%, #1c5e7e 20%, #124366 56%, #0c3357 96%, #09233b 100%);
-   background: linear-gradient(#27637d 0%, #1f6787 4%, #1c5e7e 20%, #124366 56%, #0c3357 96%, #09233b 100%); /* FF3.6-15 */
-    /* Chrome10-25,Safari5.1-6 */
-
-        border-radius: 16px;
-      }
-   nav .buy{
-     overflow: hidden;
-     /*position: relative;*/
-     float: right;
-     margin-left: 54px;
-     margin-top: 6px;
-     margin-right: 3px;
-     /*padding-left: 100px;*/
-     /*padding: 8px 10px 8px 15px;*/
-   }
-   .buy li{
-     position: relative;
-     /*padding: 8px 19px 8px 22px;*/
-     display: inline-block;
-     color: #fff;
-   }
-   nav .buy li a{
-    font: 11px arial ;
-    color: #fff;
-    letter-spacing: 0.2px;
-   }
-   nav .buy .count{
-     font: 12px arial;
-     position: absolute;
-     right: 11px;
-     top: 4px;
-     color: #0d5a8f;
-     letter-spacing: 0.4px;
-   }
-     nav .buy li:first-child a {
-       background: url("../img/koshik.png") no-repeat;
-       padding-left: 27px;
-       padding-right: 21px;
-       /*vertical-align: bottom;*/
-     }
-     nav .buy li:last-child a{
-       padding-right: 70px;
-     }
-     nav span {
-       color: yellow;
-       padding-left: 10px;
-     }
-/*стилизация меню выбора*/
-.wra_search{
-      margin-top: 9px;
-      margin-left: 4px;
-      /*width: 908px;*/
-      /*margin: 130px auto;*/
-}
-.search_avto, .search_tyres, .search_disc{
-      display: inline-block;
-      float: left;
-      position: relative;
-      background: #555555;
-      border: 2px solid #d1d1d1;
-      -webkit-box-shadow: 4px 4px 4px 0px rgba(165, 165, 165, 0.75);
-      -moz-box-shadow:    4px 4px 4px 0px rgba(165, 165, 165, 0.75);
-      box-shadow:         4px 4px 4px 0px rgba(165, 165, 165, 0.75);
-      border-radius: 19px;
-}
-.search_avto{
-      margin-right: 15px;
-      width: 411px;
-      background-color: #fff;
-}
-.inner_tyres, .inner_disc{
-    box-sizing: border-box;
-    float: left;
-    margin-left: 14px;
-    margin-right: 8px;
-}
-.inner_tyres{
-    padding-left: 4px;
-}
-.colortext{
-    color: grey;
-}
-
-.title_search_avto{
-    position: absolute;
-    left: -4px;
-    right: 0;
-    top: -1px;
-    font-weight: 900;
-    text-align: center;
-    color: #154467;
-    font-size: 12px;
-    font-family: arial;
-    letter-spacing: 0.4px;
-    word-spacing: -1px;
-}
-.inner_tyres div, .inner_disc div{
-    display: flex;
-    flex-flow: row wrap;
-    align-items: center;
-    box-sizing: border-box;
-    height: 21px;
-}
-.marka_avto{
-    margin-bottom: 3px;
-}
-.marka_avto label{
-    margin-right: 0;
-    padding-left: 3px;
-    padding-top: 8px;
-    font-family: arial, monospace;
-    font-size: 9px;
-    font-weight: 100;
-    letter-spacing: 0.8px;
-    word-spacing: -1.1px;
-    color: #000;
-}
-.marka_avto select{
-    margin-left: 5px;
-    margin-top: 4px;
-    width: 101px;
-}
-.marka_avto .colortext{
-    color: #8d999d;
-    font-weight: 100;
-    letter-spacing: 0.1px;
-    font-size: 8px;
-}
-.model_avto{
-    margin-bottom: 1px;
-}
-.model_avto label{
-    line-height: 8px;
-    font-size: 9px;
-    font-weight: 100;
-    font-family: arial,monospace;
-    letter-spacing: 0.9px;
-    padding-left: 3px;
-    padding-top: 1px;
-}
-.inner_disc .old .ind_word{
-    letter-spacing: 0.7px;
-}
-.model_avto .colortext, .old .colortext{
-    color: grey;
-    font-weight: 100;
-    font-size: 8px;
-    letter-spacing: 0.9px;
-}
-.model_avto select{
-    margin-left: 5px;
-    width: 101px;
-}
-.old{
-    margin-bottom: 1px;
-}
-.old label{
-    font-size: 9px;
-    font-family: arial, monospace;
-    font-weight: 100;
-    letter-spacing: 0.9px;
-    padding-left: 3px;
-    line-height: 0.9;
-}
-.inner_tyres .old label{
-    word-spacing: -2px;
-}
-.inner_tyres .old .ind_word{
-    letter-spacing: 0px;
-}
-.old select{
-    margin-left: 5px;
-    width: 58px;
-}
-.complectation label{
-    font-size: 9px;
-    font-family: arial, monospace;
-    font-weight: 100;
-    letter-spacing: 0.9px;
-    color: #000;
-    padding-left: 3px;
-}
-.complectation select{
-    margin-left: 5px;
-    width: 101px;
-}
-.submit_wra{
-    display: inline-block;
-    float: right;
-    text-align: right;
-    border-bottom: 2px solid #a6b1bc;
-    box-sizing: border-box;
-    margin-right: 19px;
-    margin-bottom: 6px;
-}
-.submit_wra input[type="submit"] {
-    background-color: transparent;
-    border: none;
-    font-style: italic;
-    /*text-decoration:underline;*/
-    color: #154467;
-    font-family: arial, monospace;
-    font-size: 14px;
-}
-.inner_disc h5{
-    text-align: left;
-    text-align: left;
-    margin-top: 3px;
-    margin-left: 5px;
-    font-size: 10px;
-    color: #154468;
-    font-family: arial, monospace;
-    font-weight: 900;
-    letter-spacing: 0.3px;
-}
-.inner_tyres select, .inner_disc select{
-    display: inline-block;
-    height: 19px;
-    border: none;
-    border-top: 2px solid #9f9f9f;
-    border-left: 2px solid #9f9f9f;
-    /*убираем стандартную стилизацию*/
-    /*for WebKit*/
-    -webkit-appearance: none;
-    /* for FF */
-    -moz-appearance: none;
-    text-indent: 0.01px;
-    text-overflow: '';
-    /* for IE */
-    -ms-appearance: none;
-    appearance: none!important;
-    background: url('../img/strilka15.png') no-repeat top right;
-}
-.inner_disc label, .inner_tyres label{
-    display: block;
-    width: 70px;
-}
-.inner_tyres h5{
-    text-align: right;
-    margin-top: 1px;
-    margin-right: 8px;
-    font-size: 10px;
-    font-family: arial, monospace;
-    font-weight: 900;
-    color: #154468;
-}
-.search_tyres{
-    margin-right: 9px;
-    background-color: #fff;
-}
-.search_tyres label{
-    display: inline-block;
-    width: 40px;
-    font-size: 10px;
-}
-.search_tyres h4{
-    font-size: 12px;
-    color: #114165;
-    font-family: arial, monospace;
-    font-weight: 900;
-    margin-left: 8px;
-}
-.search_tyres form{
-    padding-left: 11px;
-}
-.border{
-    display: inline-block;
-    font-size: 14px;
-}
-.size{
-    margin-top: 5px;
-    margin-right: 14px;
-}
-.size label{
-    font-family: sans-serif;
-    letter-spacing: -0.2px;
-    margin-top: 7px;
-}
-.size select{
-    width: 54px;
-    display: inline-block;
-    vertical-align: top;
-    border: none;
-    border-top: 2px solid #9f9f9f;
-    border-left: 2px solid #9f9f9f;
-    /*убираем стандартную стилизацию*/
-    /*for WebKit*/
-    -webkit-appearance: none;
-    /* for FF */
-    -moz-appearance: none;
-    text-indent: 0.01px;
-    text-overflow: '';
-    /* for IE */
-    -ms-appearance: none;
-    appearance: none!important;
-    background: url('../img/strilka15.png') no-repeat top right;
-    }
-    .radius{
-    margin-top: 3px;
-    margin-bottom: 5px;
-    }
-    .radius select{
-    width: 47px;
-    display: inline-block;
-    border: none;
-    vertical-align: top;
-    border-top: 2px solid #9f9f9f;
-    border-left: 2px solid #9f9f9f;
-    /*убираем стандартную стилизацию*/
-    /*for WebKit*/
-    -webkit-appearance: none;
-    /* for FF */
-    -moz-appearance: none;
-    text-indent: 0.01px;
-    text-overflow: '';
-    /* for IE */
-    -ms-appearance: none;
-    appearance: none!important;
-    background: url('../img/strilka15.png') no-repeat top right;
-    /*убираем стандартную стилизацию*/
-    /*for WebKit*/
-    -webkit-appearance: none;
-    /* for FF */
-    -moz-appearance: none;
-    text-indent: 0.01px;
-    text-overflow: '';
-    /* for IE */
-    -ms-appearance: none;
-    appearance: none!important;
-    background: url('../img/strilka15.png') no-repeat right;
-}
-.season{
-    margin-top: 5px;
-}
-.season .main{
-    display: block;
-    margin-right: 3px;
-    height: 50px;
-    float: left;
-    font-family: sans-serif, monospace;
-}
-.checkbox{
-    display: flex;
-    align-items: center;
-    font-size: 12px;
-}
-.search_tyres .checkbox label{
-    font-size: 12px;
-}
-.search_tyres .submit_wra{
-    margin-top: -6px;
-    margin-bottom: 8px;
-}
-.search_disc{
-    background: #fff;
-    max-width: 265px;
-}
-.search_disc h4{
-    position: absolute;
-    left: 8px;
-    font-size: 12px;
-    color: #114165;
-    font-family: arial, monospace;
-    font-weight: 800;
-    letter-spacing: 1px;
-}
-.left_side_disc{
-    margin-top: 20px;
-}
-.left_side_disc label{
-    display: inline-block;
-    width: 86px;
-    font-size: 9px;
-    font-family: sans-serif,monospace;
-}
-.left_side_disc, .right_side_disc, .vertical_line{
-    float: left;
-}
-.left_side_disc{
-    margin-left: 14px;
-    margin-right: 4px;
-}
-.right_side_disc{
-    margin-left: 10px;
-    margin-top: 4px;
-    margin-r:  8px;
-    width: 57px;
-}
-.right_side_disc label{
-    display: inline-block;
-    width: 57px;
-    font-size: 9px;
-    font-family: sans-serif;
-    line-height: 1
-}
-.right_side_disc select, .left_side_disc select{
-    width: 57px;
-    display: inline-block;
-    height: 19px;
-    vertical-align: top;
-    border: none;
-    border-top: 2px solid #9f9f9f;
-    border-left: 2px solid #9f9f9f;
-    /*убираем стандартную стилизацию*/
-    /*for WebKit*/
-    -webkit-appearance: none;
-    /* for FF */
-    -moz-appearance: none;
-    text-indent: 0.01px;
-    text-overflow: '';
-    /* for IE */
-    -ms-appearance: none;
-    appearance: none!important;
-    background: url('../img/strilka15.png') no-repeat right;
-}
-.left_side_disc label{
-    margin-right: 6px;
-}
-.left_side_disc label:after, .right_side_disc label:after{
-    content: ":"
-}
-.quant_mount_holes label{
-    letter-spacing: 1.4px;
-}
-.search_disc .quant_mount_holes select{
-    width: 50px;
-}
-.disc_diametr label{
-    font-size: 9px;
-    font-family: sans-serif, monospace;
-    letter-spacing: 1.6px;
-    white-space: nowrap;
-}
-.diamter_mount_holes label{
-    letter-spacing: 1.9px;
-}
-.diamter_mount_holes label .colortext{
-    letter-spacing: 0.3px;
-}
-.diamter_mount_holes select{
-    margin-top: 5px;
-}
-.vertical_line{
-    margin: 3px 0px 24px 8px;
-    border-right: 1px solid grey;
-    height: 106px;
-}
-.disc_diametr, .quant_mount_holes, .diamter_mount_holes, .diametr_central_hole, .ET{
-    display: flex;
-}
-.disc_diametr, .diamter_mount_holes{
-    align-items: center;
-}
-.quant_mount_holes{
-    align-items: flex-end;
-}
-.diametr_central_hole, .ET{
-    flex-flow: column;
-}
-.ET{
-    margin-top: 8px;
-}
-.ET .colortext{
-    white-space: nowrap;;
-}
-.search_disc .submit_wra{
-    margin-right: 18px;
-    margin-top: 3px;
-}
-
-/*стилизация  контента*/
-.container{
- margin-top: 14px;
- width: 910px;
- overflow: hidden;
-
-}
-.catalog, .brand{
- float: left;
- padding-bottom: 20000px;
- margin-bottom: -20000px;
- width: 180px;
- background: #eee;
-}
-.catalog h4, .brand h4{
- font: 13px Lucida_sans_regular;
- text-align: left;
- text-transform: uppercase;
- border: 1px solid black;
- border-radius: 12px;
-}
-.catalog .head{
-  margin-top: 2px;
-  letter-spacing: -0.15px;
-}
-.main_left{
-  margin-top: 14px;
-}
-.round{
-   vertical-align: -6px;/*чому так??????!!!!!*/
-   width: 20px;
-   height: 20px;
-   background: url("../img/iconka.png") no-repeat center, rgb(31,103,134); /* Old browsers */
-   background: url("../img/iconka.png") no-repeat center, -moz-linear-gradient(top, rgba(31,103,134,1) 0%, rgba(18,67,103,1) 56%, rgba(12,51,87,1) 100%); /* FF3.6-15 */
-   background: url("../img/iconka.png") no-repeat center, -webkit-linear-gradient(top, rgba(31,103,134,1) 0%,rgba(18,67,103,1) 56%,rgba(12,51,87,1) 100%); /* Chrome10-25,Safari5.1-6 */
-   background: url("../img/iconka.png") no-repeat center, linear-gradient(to bottom, rgba(31,103,134,1) 0%,rgba(18,67,103,1) 56%,rgba(12,51,87,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1f6786', endColorstr='#0c3357',GradientType=0 ); /* IE6-9 */
-   /*background: ;*/
-   display: inline-block;
-   margin: 2px 4px 2px 2px;
-   border-radius: 50%;
-}
-.container .main_left li h4{
-  position: relative;
-  height: 24px;
-  width: 119px;
-  margin-top: 2px;
-  font: 13px Lucida_sans_regular;
-  text-align: left;
-  text-transform: uppercase;
-  border: 1px solid black;
-  border-radius: 12px;
-  padding-top: 2px;
-  line-height: 26px;
-  padding-left: 30px;
-  letter-spacing: 0.6px
-}
-.ring{
-  position: absolute;
-  top: 1px;
-  left: 3px;
-  width: 12px;
-  height: 12px;
-  border: 6px solid #114165;
-  border-radius: 50%;
-  display: inline-block;
-         /*vertical-align: -8px;*/
-         /*margin: 1px 4px 2px 4px;*/
-}
-.main_left li ul li::before{
-  content: url("../img/marker_li.png")/*поменяяли маркер*/
-}
-.main_left li ul li{
-  margin-left: 34px;
-}
-.submenu_tyres li:first-child{
-  margin-top: 4px;
-}
-.submenu_tyres li, .submenu_discs li,.submenu_bolt li:last-child{
-  margin-top: 7px;
-}
-.submenu_tyres li:last-child, .submenu_discs li:last-child,.submenu_bolt li{
-  margin-top: 8px;
-}
-.submenu_discs li:first-child, .submenu_bolt li:first-child{
-  margin-top: 3px;
-}
-
-.main_left li ul li a{
-         letter-spacing: 0.5px;
-         text-decoration: none;
-         font: 13px sans-serif;
-         color: #465961;
-       }
-.main_left li ul li a:hover{
-   letter-spacing: 0.1px;
-   border-bottom: 2px solid #58697f;
-   font: bold italic 14px Arial;
-   color: #0c3256;
- }
- .container ul li ul li:hover::before{
-   content: url("../img/marker_li_hover.png")/*поменяяли маркер при наведении*/
- }
-       /*Работаем с основным контентом*/
-.production{
-  float: left;
-  width: 525px;
-  background: #cbd3d7;
-  box-sizing: border-box;
-  margin-bottom: -20000px;
-  margin-left: 12px;
-  padding-bottom: 20000px;
-  padding-left: 22px;
-}
-       .item{
-         /*display: inline-block;*/
-         float: left;
-         margin-right: 29px;
-         margin-bottom: 25px;
-         width: 138px;
-       }
-figure{
- float: left;
- /*margin-right: 29px;*/
- margin-bottom: 25px;
- width: 138px;
- font-family: Lucida_sans_regular;
- text-align: center;
-}
-figcaption .firm, figcaption .model{
- font-family: Lucida_sans_regular;
- display: block;
- text-align: center;
-}
-figcaption .firm{
- margin-top: 14px;
- line-height: 15px;
- /*font-weight:bold;*/
- font-size:15px;
- display: block;
- text-decoration: none;
- color: #206988;
-}
-
-figcaption .model{
-  line-height: 13px;
-  text-transform: capitalize;
-  font-size: 13px;
-  color: #000;
-  /*letter-spacing: -0.4px;*/
-  padding-left: 4px;
-  /*word-spacing: 2px;*/
-}
-figure .position{
-  padding-top: 5px;
-  background: #fff;
-  border: 1px solid #c2cacc;
-  border-radius: 10px;
-  padding-left: 29px;
-  padding-right: 34px;
-  padding-bottom: 0px;
-  height: 122px;
-  overflow: hidden;
-}
-.price{
- margin-left: 11px;
- margin-top: 3px;
- color: #114165;
- text-align: center;
- font: bold italic 16px arial;
-}
-.price span{
-  font-size: 14px;
-  letter-spacing: -0.3px;
-}
-.second_item{
-  margin-left: 30px;
-  margin-right: 28px;
-}
-.second_item .firm{
-  margin-left: 3px;
-}
-.second_item .price{
-  margin-left: 10px;
-  margin-top: 5px;
-  letter-spacing: 0.4px;
-}
-.third_item .firm{
-  margin-left: 8px;
-}
-.third_item .model{
-  margin-left: 7px;
-  letter-spacing: -0.1px;
-}
-.third_item .price{
-  margin-left: 15px;
-}
-         .brand label{
-           display: block;
-           margin: 10px;
-           color: #465961;
-           font: 13px sans-serif;
-
-         }
-         .brand input[type="checkbox"]{
-           display: none;
-         }
-         .brand input[type="checkbox"]+span{
-           display: inline-block;
-           vertical-align: middle;
-           margin: 0 10px 0 0;
-           background: url("../img/checkbox.png");
-           width: 15px;
-           height: 15px;
-         }
-         .brand input[type="checkbox"]:checked+span{
-           background: transparent;
-         }
-       /*логотипи брендів*/
-.brandlogo{
- max-width: 710px;
- margin: 0 auto;
- /*margin-top: 120px;*/
- background-color: cyan;
-}
-.brandlogo li{
- float: left;
- margin-top: 10px;
-}
-.brandlogo li:nth-child(2), .brandlogo li:nth-child(5){
- margin-left: 12px;
- }
-.brandlogo li:nth-child(3), .brandlogo li:nth-child(7){
-   margin-left: 13px;
-}
-.brandlogo li:nth-child(4),.brandlogo li:last-child{
-   margin-left: 15px;
-}
-.brandlogo li:nth-child(6){
-   margin-left: 13px;
-   margin-top: 6px;
-}
-        /*footer*/
-footer{
-  margin: -100px auto 0;
-  width: 910px;/*переделать под %*/
-  height: 99px;
-  border-top: 1px solid #626e7b;
-  background-color: #213a4d;
-  text-align: center;
-  font-family: arial;
-}
-.foot_menu{
-  display: inline-block;
-  margin-top: 10px;
-  margin-left: 6px;
-  /*font-weight: 900;*/
-}
-.separator{
-  font-size: 12px;
-  font-weight: bold;
-  color: #bec6c9;
-}
-.foot_menu li{
-  float: left;
-  color: #bec6c9;
-}
-.foot_menu li:nth-child(2){
-  padding-left: 12px;
-  padding-right: 11px;
-}
-.foot_menu li:nth-child(4){
-  margin-right: 11px;
-  margin-left: 11px;
-}
-.foot_menu li:nth-child(6){
-  margin-left: 12px;
-  margin-right: 14px;
-}
-.foot_menu li a{
-  display: block;
-  color: #bec6c9;
-  font-size: 12px;
-  font-family: arial;
-  word-spacing: 2.3px;
-  letter-spacing: 0.3px;
-}
-
-.foot_menu li:first-child a{
-  word-spacing: 2px;
-  letter-spacing: 0.1px;
-}
-.foot_menu li a:hover{
-  color: #39728b;
-}
-footer p{
-  color: #7f4740;
-  font-size: 10px;
-  margin-top: 10px;
-}
->>>>>>> 5a6ae1cc6adbdd07cf644e2bd84027d364ed11da
